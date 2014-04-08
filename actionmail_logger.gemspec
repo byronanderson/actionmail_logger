@@ -1,6 +1,7 @@
 require File.expand_path('../lib/actionmail_logger/version', __FILE__)
 Gem::Specification.new do |s|
   s.name = 'actionmail_logger'
+  s.summary = 'Prints rails mail to a logger instead of delivering it'
   s.version = ActionmailLogger::VERSION
   s.authors = ['Byron Anderson', 'Jeff Turley']
   s.email = ['byronanderson32@gmail.com', 'pythe314@gmail.com']
